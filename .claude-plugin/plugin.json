@@ -1,0 +1,12 @@
+{
+  "name": "jira-elaborate",
+  "version": "1.0.0",
+  "description": "Jira 이슈 제목과 코드베이스를 분석하여 구체적인 이슈 설명을 자동 생성하는 Claude Code 플러그인",
+  "author": {
+    "name": "Jeonghwan Bae",
+    "email": "jhbaessi.dev@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["jira", "atlassian", "issue-description", "codebase-analysis"],
+  "skills": "./skills/"
+}
