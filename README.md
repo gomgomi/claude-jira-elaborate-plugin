@@ -20,7 +20,7 @@ Jira 이슈 제목과 코드베이스를 분석하여 구체적인 이슈 설명
 ### 마켓플레이스에서 설치
 
 ```bash
-claude plugin marketplace add <owner>/claude-jira-elaborate-plugin
+claude plugin marketplace add gomgomi/claude-jira-elaborate-plugin
 claude plugin install jira-elaborate
 ```
 
