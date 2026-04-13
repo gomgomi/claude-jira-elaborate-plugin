@@ -1,0 +1,24 @@
+{
+  "name": "jira-elaborate",
+  "owner": {
+    "name": "Jeonghwan Bae",
+    "email": "jhbaessi.dev@gmail.com"
+  },
+  "metadata": {
+    "description": "Jira 이슈 설명 자동 생성 플러그인",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "jira-elaborate",
+      "source": "./",
+      "description": "Jira 이슈 제목과 코드베이스를 분석하여 구체적인 이슈 설명을 자동 생성하는 Claude Code 플러그인",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jeonghwan Bae"
+      },
+      "category": "development",
+      "keywords": ["jira", "atlassian", "issue-description", "codebase-analysis"]
+    }
+  ]
+}
