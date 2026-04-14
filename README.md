@@ -27,10 +27,11 @@ claude plugin marketplace add gomgomi/claude-jira-elaborate-plugin
 claude plugin install jira-elaborate
 ```
 
-### 로컬에서 테스트
+### 삭제
 
 ```bash
-claude --plugin-dir ./path/to/claude-jira-elaborate-plugin
+claude plugin uninstall jira-elaborate
+claude plugin marketplace remove gomgomi-claude-plugins
 ```
 
 ## 사용법
@@ -48,6 +49,10 @@ claude --plugin-dir ./path/to/claude-jira-elaborate-plugin
 ```
 Step 1: Jira 이슈 + 부모/형제 이슈 조회
 Step 2: 코드베이스 4단계 탐색
+        Layer 1 — 범위 식별 (모듈/컴포넌트 태그)
+        Layer 2 — 현재 구현 상태 파악
+        Layer 3 — 참조 패턴 탐색 (유사 기능)
+        Layer 4 — 영향 범위 분석
 Step 3: 템플릿 기반 초안 작성
 Step 4: 사용자 확인
 Step 5: Jira 업데이트
