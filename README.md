@@ -20,8 +20,9 @@ Jira 이슈 제목과 코드베이스를 분석하여 구체적인 이슈 설명
 ### 마켓플레이스에서 설치
 
 ```bash
-# Step 1: 마켓플레이스 등록
+# Step 1: 마켓플레이스 등록 (둘 중 하나)
 claude plugin marketplace add gomgomi/claude-jira-elaborate-plugin
+claude plugin marketplace add gomgomi-claude-plugins
 
 # Step 2: 플러그인 설치
 claude plugin install jira-elaborate
